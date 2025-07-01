@@ -1,0 +1,43 @@
+🗂️ Navigare și gestionare directoare
+Comandă	Ce face
+pwd	Afișează calea curentă (unde te afli în sistemul de fișiere)
+ls	Listează fișierele din folderul curent
+ls -l	Listează fișierele cu detalii (permisiuni, dimensiuni, etc.)
+cd nume_folder	Intri într-un folder
+cd ..	Te duci un nivel înapoi (folder părinte)
+mkdir nume_folder	Creezi un folder nou
+rm fisier.txt	Șterge un fișier
+rm -r folder/	Șterge un folder (cu tot conținutul lui)
+clear	Curăță terminalul (șterge afișajul precedent)
+
+⚙️ Comenzi Node.js și NPM
+Comandă	Ce face
+npm init -y	Creează rapid un package.json cu valori default
+npm install	Instalează toate dependințele din package.json
+npm install nume_pachet	Instalează un pachet (ex: npm install express)
+npm install -D nume_pachet	Instalează ca dev dependency (pentru testare, dev tools)
+npm uninstall nume_pachet	Dezinstalează un pachet
+npx nume_comanda	Rulează o comandă dintr-un pachet instalat local
+
+🧪 Comenzi utile pentru Playwright
+Comandă	Ce face
+npx playwright install	Instalează browserele necesare pentru Playwright
+npx playwright test	Rulează toate testele din proiect
+npx playwright test tests/fisier.ts	Rulează testele dintr-un anumit fișier
+npx playwright codegen url	Deschide browserul și generează automat codul Playwright
+npx playwright show-report	Deschide raportul HTML cu rezultatele testelor
+npx playwright test --ui	Deschide Playwright Test UI pentru rularea/gestionarea testelor
+
+🔍 Căutare și alte comenzi utile
+Comandă	Ce face
+find . -name fisier.ext	Caută un fișier în directorul curent și subdirectoare
+grep "text" nume_fisier	Caută text într-un fișier
+cat nume_fisier	Afișează conținutul unui fișier
+code .	Deschide Visual Studio Code în folderul curent (dacă ai code CLI)
+
+💡 Bonus: scurtături utile în terminal
+Comandă	Ce face
+↑ (săgeată sus)	Repetă comanda anterioară
+Tab	Autocompletare (folder, fișier)
+Ctrl + C	Oprește execuția curentă
+Ctrl + L	Curăță ecranul (ca clear)
